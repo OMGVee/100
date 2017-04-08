@@ -1,0 +1,28 @@
+body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: #F1F1F1;
+}
+.nav {
+        float: right;
+        font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+        display: block;
+        width:100%;
+        margin: 0 0 0em 0;
+        padding:0;
+}
+.nav li {
+        float: right;
+        list-style: none;
+        border-radius: 1px  solid #ccc;
+        font-size: 1.5em;
+}
+.nav li a {
+        display: block;
+        padding: 0px 15px;
+        text-decoration: underline;
+        font-weight: 700;
+        color:#04859D;
+}
+.nav li a:hover {
+        background-color: #fff;
+}
