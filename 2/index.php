@@ -15,17 +15,17 @@
                 </ul>
 </header>
 <body>
-		<h1>Day 1: basic hello world</h1>
-		<hr>
-		<h2>Basic HTML page structure and tags</h2>
-		<h3>A HTML page has 2 main components:</h3>
-		<h4>- a HEAD</h4>
-		<h5> where the TITLE and METADATA of the document are contained<h5>
-		<h4>- a BODY</h4>
-		<h5> where the content of the document is encapsulated</h5>
-		<hr>
-		<img src='basic_html_tags.gif'>
-		<hr>
-		<p>Now we know how to make basic HTML pages</p>
-	</body>
-</html>
+<h1>Day 2: made this naviation menu consistent across days</h1>
+<hr>
+Created this boilerplate code that I can then include in each day's project, on top<br>
+so at least there's _some_ sort of consistency :)<br>
+<hr>
+<?php
+echo "but since I haven't done much else, I thought of displaying your computer's IP Address:<br><b>";
+
+echo $_SERVER["REMOTE_ADDR"] . "</b>";
+?>
+
+<hr>
+
+if you don't believe me, then double check with <a href="https://icanhazip.com/">the nice folks at ICanHazIP.com</a>

@@ -1,0 +1,56 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #F1F1F1;
+	border: 1px solid #F1F1F1;
+}
+.nav {
+	float: right;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	display: block;
+	width:100%;
+	padding:0;
+	margin-top: 0px;
+}
+.nav li {
+	float: right;
+	list-style: none;
+	font-size: 1.5em;
+}
+.nav li a {
+	display: block;
+	padding: 0px 15px;
+	text-decoration: underline;
+	font-weight: 700;
+	color:#04859D;
+}
+.nav li a:hover {
+	background-color: #fff;
+}
+section {
+	width: 100%;
+}
+h1 {
+	color:#59955C;
+	font-size: 36px;
+	text-align: center;
+}
+h2 {
+	font-size:32px;
+	text-align: center;
+}
+.top {
+	text-align: center;
+	color:#5C5C5C;
+}
+body a {
+	color:#04859D;
+	text-decoration: underline;
+}
+body a:hover {
+	color:#FF800D;
+	background-color: #fff;
+}
+.everyday {
+	color: #5C5C5C;
+}
+
