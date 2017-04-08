@@ -26,3 +26,17 @@ body {
 .nav li a:hover {
         background-color: #fff;
 }
+li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+img {
+	width: 200px;
+	display: block;
+}
+image_row {
+	border: 1px solid red;
+	width: 75%;
+	align: center;
+}
