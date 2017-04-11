@@ -3,7 +3,7 @@ body {
         background-color: #F1F1F1;
 }
 .nav {
-        float: right;
+        float: left;
         font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
         display: block;
         width:100%;
