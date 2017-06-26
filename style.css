@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Merriweather', serif;
 	background-color: #F1F1F1;
 	border: 1px solid #F1F1F1;
 }
 .nav {
 	float: right;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: "Merriweather", sans-serif;
 	display: block;
 	width:100%;
 	padding:0;

@@ -4,7 +4,7 @@
     <title>100 sites in 100 or more days</title>
     <link rel="icon" href="../star.png">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <header>
                 <ul class="nav">
@@ -15,7 +15,7 @@
                 </ul>
 </header>
 <body>
-<h1>Day 2: made this naviation menu consistent across days</h1>
+<h1>Day 2: made this navigation menu consistent across days</h1>
 <hr>
 Created this boilerplate code that I can then include in each day's project, on top<br>
 so at least there's _some_ sort of consistency :)<br>
