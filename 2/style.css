@@ -1,6 +1,7 @@
 body {
 	font-family: 'Merriweather', serif;
         background-color: #F1F1F1;
+	color:#5C5C5C;
 }
 .nav {
         float: right;
@@ -29,4 +30,3 @@ a {
 a:hover {
         background-color: #fff;
 }
-

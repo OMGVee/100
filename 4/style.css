@@ -1,7 +1,6 @@
 body {
         font-family: 'Merriweather', serif;
         background-color: #F1F1F1;
-	color: #5C5C5C;
 }
 .nav {
         float: right;
@@ -24,10 +23,35 @@ body {
         font-weight: 700;
         color:#04859D;
 }
-a {
-	color:#04859D;
-}
-a:hover {
+.nav li a:hover {
         background-color: #fff;
 }
+li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+section {
+color:#5C5C5C;
+}
 
+div {
+	border:1px solid black;
+}
+.date {
+	text-decoration: underline;
+	display: block;
+}
+.tasks {
+	max-width: 75%;
+	min-width: 75%;
+	float: left;
+}
+.appointments {
+}
+.done-each-hour {
+}
+.ideas {
+	min-width: 75%;
+	float: left;
+}
