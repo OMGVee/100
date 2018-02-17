@@ -38,8 +38,20 @@ color:#5C5C5C;
 div {
 	border:1px solid black;
 }
-
 .date {
-	/* text-decoration: underline; */
+	text-decoration: underline;
 	display: block;
+}
+.tasks {
+	max-width: 75%;
+	min-width: 75%;
+	float: left;
+}
+.appointments {
+}
+.done-each-hour {
+}
+.ideas {
+	min-width: 75%;
+	float: left;
 }
