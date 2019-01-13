@@ -1,0 +1,6 @@
+<?php
+$mysql_schema="<your database/schema here>";
+$mysql_table="<your table under the above schema in the db>"; 
+$mysql_user="<your db user>";//you should grant select, insert, delete on this user privileges
+$mysql_password="<your db password for that user>";
+?>
