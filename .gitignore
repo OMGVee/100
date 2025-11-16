@@ -1,2 +1,5 @@
 .well-known
 .config.inc
+.vscode/
+.DS_Store
+.venv/
