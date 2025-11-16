@@ -1,0 +1,126 @@
+header {
+    /*border: 1px solid red;*/
+    display: block;
+    float: right;
+}
+body {
+        font-family: 'Merriweather', serif;
+        /*background-color: #F1F1F1;*/
+}
+.nav {
+        float: left;
+        font-family: 'Merriweather', serif;
+        display: block;
+        width:100%;
+        margin: 0 0 0em 0;
+        padding:0;
+}
+.nav li {
+        float: right;
+        list-style: none;
+        border-radius: 1px  solid #ccc;
+        font-size: 1.5em;
+}
+.nav li a {
+        display: block;
+        padding: 0px 15px;
+        text-decoration: underline;
+        font-weight: 700;
+        color:#04859D;
+}
+.nav li a:hover {
+        background-color: #fff;
+}
+
+
+    html {
+      /*background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);*/
+      background-size: cover;
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display: block;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+    .clock {
+      width: 30rem;
+      height: 30rem;
+      border: 20px solid white;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 50%;
+      height: 6px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(.41,1.99,.58,1);
+    }
+
+    .second-hand {
+        height: 1px;
+        background: lightblue;
+    }
+
+    .hour-hand {
+        height: 10px;
+        background: lightcoral;
+    }
+
+    .min-hand {
+        height: 5px;
+        background: lightgreen;
+    }
+
+    .digital {
+        float: none;
+        font-family: 'Merriweather', serif;
+        display: block;
+        width:100%;
+        margin: 0 0 0em 0;
+        padding:0;
+    }
+    .hr {
+        float: left;
+        list-style: none;
+        color: lightcoral;
+    }
+
+    .mn {
+        float: left;
+        list-style: none;
+        color: lightgreen;
+    }
+
+    .sc {
+        float: left;
+        list-style: none;
+        color: lightblue; 
+    }
