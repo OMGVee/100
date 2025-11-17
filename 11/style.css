@@ -5,6 +5,13 @@ html {
   background-size: cover;
 }
 
+@font-face {
+            font-family: 'BerkeleyMono-Regular';  /* Name you'll use in CSS */
+            src: url('global_assets/fonts/BerkeleyMono-Regular.ttf') format('truetype'); 
+            font-weight: normal;        /* Optional: normal, bold, 100-900 */
+            font-style: normal;         /* Optional: normal, italic */
+        }
+
 .nav {
 	float: right;
 	font-family: "Merriweather", sans-serif;
@@ -32,7 +39,7 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: "Merriweather", sans-serif;
+  font-family: "BerkeleyMono-Regular", sans-serif;
 }
 
 .keys {

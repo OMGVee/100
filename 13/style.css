@@ -4,8 +4,9 @@
             font-weight: normal;        /* Optional: normal, bold, 100-900 */
             font-style: normal;         /* Optional: normal, italic */
         }
+
 body {
-        font-family: 'BerkeleyMono-Regular', serif;
+        font-family: 'BerkeleyMono-Regular', sans-serif;
         background-color: #F1F1F1;
 }
 .nav {
