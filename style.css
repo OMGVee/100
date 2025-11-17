@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+@font-face {
+            font-family: 'BerkeleyMono-Regular';  /* Name you'll use in CSS */
+            src: url('global_assets/fonts/BerkeleyMono-Regular.ttf') format('truetype'); 
+            font-weight: normal;        /* Optional: normal, bold, 100-900 */
+            font-style: normal;         /* Optional: normal, italic */
+        }
 body {
 	font-family: 'Merriweather', serif;
 	background-color: #F1F1F1;
@@ -57,5 +63,5 @@ body a:hover {
 }
 
 .emoji {
-	font-family: "Noto Color Emoji";
+	font-family: "BerkeleyMono-Regular";
 }
