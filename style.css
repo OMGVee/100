@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 body {
 	font-family: 'Merriweather', serif;
 	background-color: #F1F1F1;
@@ -55,3 +56,6 @@ body a:hover {
 	color: #5C5C5C;
 }
 
+.emoji {
+	font-family: "Noto Color Emoji";
+}
