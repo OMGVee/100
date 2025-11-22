@@ -1,0 +1,125 @@
+@font-face {
+            font-family: 'BerkeleyMono-Regular';  /* Name you'll use in CSS */
+            src: url('../global_assets/fonts/BerkeleyMono-Regular.ttf') format('truetype'); 
+            font-weight: normal;        /* Optional: normal, bold, 100-900 */
+            font-style: normal;         /* Optional: normal, italic */
+        }
+body {
+        font-family: 'BerkeleyMono-Regular', serif;
+        background-color: #F1F1F1;
+        margin: 0;
+}
+
+.nav {
+        float: left;
+        font-family: 'Merriweather', serif;
+        display: block;
+        width:100%;
+        margin: 0 0 0em 0;
+        padding:0;
+      
+}
+.nav li {
+        float: right;
+        list-style: none;
+        border-radius: 1px  solid #ccc;
+        font-size: 1.5em;
+}
+.nav li a {
+        display: block;
+        padding: 0px 15px;
+        text-decoration: underline;
+        font-weight: 700;
+        color:#04859D;
+}
+.nav li a:hover {
+        background-color: #fff;
+}
+
+
+
+
+
+
+
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    clear: left;
+}
+
+.panel {
+    background: #6B0F9C;
+    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* Safari transitionend event.propertyName === flex */
+    /* Chrome + FF transitionend event.propertyName === flex-grow */
+    transition:
+        font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        background 0.2s;
+    font-size: 20px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel1 { background-image:url("./img/p1.jpg"); }
+.panel2 { background-image:url("./img/p2.jpg"); }
+.panel3 { background-image:url("./img/p3.jpg"); }
+.panel4 { background-image:url("./img/p4.jpg"); }
+.panel5 { background-image:url("./img/p5.jpg"); }
+
+/* Flex Items */
+.panel > * {
+    margin: 0;
+    width: 100%;
+    transition: transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel > *:first-child { transform: translateY(-100%); }
+.panel.open-active > *:first-child { transform: translateY(0); }
+.panel > *:last-child { transform: translateY(100%); }
+.panel.open-active > *:last-child { transform: translateY(0); }
+
+.panel p {
+    text-transform: uppercase;
+    
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+    font-size: 4em;
+}
+
+.panel.open {
+    flex: 5;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .panel p {
+    font-size: 1em;
+    }
+}
